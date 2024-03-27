@@ -4,6 +4,7 @@ from django.core.validators import FileExtensionValidator
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import BaseUserManager, AbstractUser
 
+// This is our model file
 
 ext_validator = FileExtensionValidator(['xlsx','pptx','docx'])
 
