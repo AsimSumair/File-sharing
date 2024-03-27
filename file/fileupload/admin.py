@@ -3,6 +3,7 @@ from fileupload.models import FileUpload
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from .models import *
 
+// This is the admin page 
 
 class UserAdmin(BaseUserAdmin):
   list_display = ('id', 'email', 'username',)
