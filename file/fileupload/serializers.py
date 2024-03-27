@@ -4,6 +4,7 @@ from .models import FileUpload
 from .models import Signup
 from .models import Login
 
+// This is the Api Page for file Sharing system
 
 class FileUploadSerializer(serializers.Serializer):
       class Meta:
